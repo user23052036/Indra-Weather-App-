@@ -1,0 +1,26 @@
+{
+    "companyData": 
+    {
+        "companyName": "1LineCode",
+        "employee": 
+        [
+            {
+                "name": "sonu",
+                "age": 21,
+                "seenGhost": false,
+                "alive": null
+            },
+            {
+                "name": "Roash",
+                "age": 12,
+                "seenGhost": true,
+                "alive": null
+            }
+        ]
+    },
+    "fruitData": 
+    {
+        "fruits": ["mango", "banana", "grapes"],
+        "deadorNO": [true, false, false, true]
+    }
+}

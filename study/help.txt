@@ -38,3 +38,16 @@ setHorizontalAlignment(SwingConstants.CENTER) centers the image inside the label
 the whole window.
 
 --------------------------------------------------------------------------------------------------------
+
+Key Differences:
+
+Return Type
+getString(key): Returns a plain Java String.
+getJsonString(key): Returns a JsonString object (which you can then call .getString() on to get the 
+actual text).
+
+Null Handling
+getString(key): Throws a NullPointerException if the key is missing.
+getJsonString(key): Returns null if the key is missing.
+
+--------------------------------------------------------------------------------------------------------

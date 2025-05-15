@@ -19,6 +19,8 @@ class weatherGUI extends JFrame
 
         addComponents();
     }
+
+    
     private void addComponents()
     {
         //adding the TextField

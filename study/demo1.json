@@ -1,0 +1,39 @@
+{
+  "website": 
+  {
+    "address": 
+    [
+      {
+        "area": "Mumbai",
+        "plot": 53,
+        "type": "office",
+        "sector": 20
+      },
+
+      {
+        "area": "Navi Mumbai",
+        "plot": 35,
+        "type": "hq",
+        "sector": 10
+      }
+    ],
+
+    "serverDetails": 
+    {
+      "hostingStatus": "active",
+      "serverOS": "Linux"
+    },
+
+    "phone": 
+    [
+      12345,
+      54321,
+      98765,
+      999888
+    ],
+
+    "author": "Souvik Mandal",
+    "name": "1LineCode",
+    "url": "www.1LineCode.com"
+  }
+}

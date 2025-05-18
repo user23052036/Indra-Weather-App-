@@ -51,3 +51,38 @@ getString(key): Throws a NullPointerException if the key is missing.
 getJsonString(key): Returns null if the key is missing.
 
 --------------------------------------------------------------------------------------------------------
+
+To convert weather data like the provided JSON into the four categories- clear, cloudy, rain, and snow you can 
+use a combination of the following key indicators:
+
+weather_descriptions
+1. cloudcover
+2. precip
+3. temperature
+
+A practical categorization approach is:
+
+Rain: If precipitation (precip) is greater than 0 and the description does not indicate snow.
+Snow: If precipitation is greater than 0 and the description contains "snow" or the temperature is at or 
+      below 0°C.
+
+Cloudy: If cloud cover (cloudcover) is above 60% or the description contains "cloud".
+Clear: If the description contains "clear" or cloud cover is below 20%.
+Default: If none of the above, default to "cloudy" for ambiguous cases like "haze" or moderate cloud cover.
+
+
+
+For your specific data (Kolkata, May 17, 2025):
+
+weather_descriptions: ["Haze"]
+cloudcover: 50
+precip: 0
+temperature: 35
+
+Applying the logic:
+
+No precipitation, so not "rain" or "snow".
+Cloud cover is 50% (between 20% and 60%) and the description is "Haze" (not "clear" or "cloud").
+By default, such intermediate/ambiguous cases are categorized as "cloudy".
+
+---------------------------------------------------------------------------------------------------------------

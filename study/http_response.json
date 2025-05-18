@@ -1,0 +1,65 @@
+{
+  "request": 
+  {
+    "type": "City",
+    "query": "Kolkata, India",
+    "language": "en",
+    "unit": "m"
+  },
+
+  "location": 
+  {
+    "name": "Kolkata",
+    "country": "India",
+    "region": "West Bengal",
+    "lat": "22.570",
+    "lon": "88.370",
+    "timezone_id": "Asia/Kolkata",
+    "localtime": "2025-05-17 16:35",
+    "localtime_epoch": 1747499700,
+    "utc_offset": "5.50"
+  },
+  "current": 
+  {
+    "observation_time": "11:05 AM",
+    "temperature": 35,
+    "weather_code": 143,
+    "weather_icons": [
+      "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0006_mist.png"
+    ],
+    "weather_descriptions": [
+      "Haze"
+    ],
+    "astro": 
+    {
+      "sunrise": "04:55 AM",
+      "sunset": "06:10 PM",
+      "moonrise": "10:25 PM",
+      "moonset": "08:18 AM",
+      "moon_phase": "Waning Gibbous",
+      "moon_illumination": 83
+    },
+    "air_quality": 
+    {
+      "co": "486.55",
+      "no2": "3.33",
+      "o3": "100",
+      "so2": "10.73",
+      "pm2_5": "41.44",
+      "pm10": "57.35",
+      "us-epa-index": "3",
+      "gb-defra-index": "3"
+    },
+    "wind_speed": 32,  
+    "wind_degree": 193,
+    "wind_dir": "SSW",
+    "pressure": 1002,
+    "precip": 0,
+    "humidity": 53,
+    "cloudcover": 50,
+    "feelslike": 39,
+    "uv_index": 1,
+    "visibility": 4,
+    "is_day": "yes"
+  }
+}
